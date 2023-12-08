@@ -1,0 +1,1249 @@
+[Root]
+Most Recent Package=TidalStream 2003
+
+
+[Package|Standard Setup Package 1|Title Stream Atlas]
+Icon1=prjPepper.exe
+Title1=Title Stream Atlas
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\TidalStream\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Pepperwhite\V2Eval\Pwstrv2.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\MSCAL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+e:\tidalstream\atlasxp.mdb=
+e:\tidalstream\map\sar_a.pws=
+e:\tidalstream\map\coastline_a.pwc=
+e:\tidalstream\map\coastline_a.pws=
+e:\tidalstream\map\coastline_l.pwa=
+e:\tidalstream\map\coastline_l.pwc=
+e:\tidalstream\map\coastline_l.pws=
+e:\tidalstream\map\sar_a.pwa=
+e:\tidalstream\map\sar_a.pwc=
+e:\tidalstream\map\coastline_a.pwa=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCAL.OCX=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\TidalStream\AtlasXP.mdb=Yes
+E:\TidalStream\TidalStream.exe=Yes
+C:\WINNT\system32\Pwstrv2.ocx=Yes
+E:\TidalStream\map\sar_a.pws=Yes
+E:\TidalStream\map\coastline_a.pwc=Yes
+E:\TidalStream\map\coastline_a.pws=Yes
+E:\TidalStream\map\coastline_l.pwa=Yes
+E:\TidalStream\map\coastline_l.pwc=Yes
+E:\TidalStream\map\coastline_l.pws=Yes
+E:\TidalStream\map\sar_a.pwa=Yes
+E:\TidalStream\map\sar_a.pwc=Yes
+E:\TidalStream\map\coastline_a.pwa=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\TidalStream\prjPepper.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Pepperwhite\V2Eval\Pwstrv2.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\TidalStream\AtlasXP.mdb=$(AppPath)
+E:\TidalStream\TidalStream.exe=$(AppPath)
+C:\WINNT\system32\Pwstrv2.ocx=$(WinSysPath)
+E:\TidalStream\map\sar_a.pws=$(AppPath)\map
+E:\TidalStream\map\coastline_a.pwc=$(AppPath)\map
+E:\TidalStream\map\coastline_a.pws=$(AppPath)\map
+E:\TidalStream\map\coastline_l.pwa=$(AppPath)\map
+E:\TidalStream\map\coastline_l.pwc=$(AppPath)\map
+E:\TidalStream\map\coastline_l.pws=$(AppPath)\map
+E:\TidalStream\map\sar_a.pwa=$(AppPath)\map
+E:\TidalStream\map\sar_a.pwc=$(AppPath)\map
+E:\TidalStream\map\coastline_a.pwa=$(AppPath)\map
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\TidalStream\prjPepper.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\TidalStream\AtlasXP.mdb=Yes
+E:\TidalStream\TidalStream.exe=Yes
+E:\TidalStream\map\sar_a.pws=Yes
+E:\TidalStream\map\coastline_a.pwc=Yes
+E:\TidalStream\map\coastline_a.pws=Yes
+E:\TidalStream\map\coastline_l.pwa=Yes
+E:\TidalStream\map\coastline_l.pwc=Yes
+E:\TidalStream\map\coastline_l.pws=Yes
+E:\TidalStream\map\sar_a.pwa=Yes
+E:\TidalStream\map\sar_a.pwc=Yes
+E:\TidalStream\map\coastline_a.pwa=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Tidal Stream Atlas
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=E:\TidalStream\Package
+ProjectFolder=E:\TidalStream
+ServerSideCab=
+File1=E:\TidalStream\Package\setup.exe
+File2=E:\TidalStream\Package\Setup.Lst
+File3=E:\TidalStream\Package\TidalStream.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Tidal Stream Atlas
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Tidal Stream Atlas]
+Icon1=TidalStream.exe
+Title1=Tidal Stream Atlas
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=E:\TidalStream\Package
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\MSCAL.OCX=
+
+[Package|Dep File 1|Files Added]
+e:\tidalstream\atlasxp.mdb=
+e:\tidalstream\map\anch_a_wgs84.pwa=
+e:\tidalstream\map\land_a_wgs84.pwc=
+e:\tidalstream\map\anch_a_wgs84.pws=
+e:\tidalstream\map\coasline_wgs84.pwa=
+e:\tidalstream\map\coasline_wgs84.pwc=
+e:\tidalstream\map\coasline_wgs84.pws=
+e:\tidalstream\map\fwy_l_wgs84.pwa=
+e:\tidalstream\map\fwy_l_wgs84.pwc=
+e:\tidalstream\map\fwy_l_wgs84.pws=
+e:\tidalstream\map\land_a_wgs84.pwa=
+e:\tidalstream\map\anch_a_wgs84.pwc=
+e:\tidalstream\map\sar_l_wgs84.pws=
+e:\tidalstream\map\sar_l_wgs84.pwa=
+e:\tidalstream\map\sar_l_wgs84.pwc=
+e:\tidalstream\map\land_a_wgs84.pws=
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+E:\TidalStream\TidalStream.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\Pwstrv2.ocx=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCAL.OCX=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+E:\TidalStream\AtlasXP.mdb=Yes
+E:\TidalStream\map\anch_a_wgs84.pwa=Yes
+E:\TidalStream\map\land_a_wgs84.pwc=Yes
+E:\TidalStream\map\anch_a_wgs84.pws=Yes
+E:\TidalStream\map\coasline_wgs84.pwa=Yes
+E:\TidalStream\map\coasline_wgs84.pwc=Yes
+E:\TidalStream\map\coasline_wgs84.pws=Yes
+E:\TidalStream\map\fwy_l_wgs84.pwa=Yes
+E:\TidalStream\map\fwy_l_wgs84.pwc=Yes
+E:\TidalStream\map\fwy_l_wgs84.pws=Yes
+E:\TidalStream\map\land_a_wgs84.pwa=Yes
+E:\TidalStream\map\anch_a_wgs84.pwc=Yes
+E:\TidalStream\map\sar_l_wgs84.pws=Yes
+E:\TidalStream\map\sar_l_wgs84.pwa=Yes
+E:\TidalStream\map\sar_l_wgs84.pwc=Yes
+E:\TidalStream\map\land_a_wgs84.pws=Yes
+C:\Program Files\Common Files\System\ado\msado15.dll=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+E:\TidalStream\TidalStream.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\Pwstrv2.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\TidalStream\AtlasXP.mdb=$(AppPath)
+E:\TidalStream\map\anch_a_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\land_a_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\anch_a_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\coasline_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\coasline_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\coasline_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\land_a_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\anch_a_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\land_a_wgs84.pws=$(AppPath)\map
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+E:\TidalStream\TidalStream.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\TidalStream\AtlasXP.mdb=Yes
+E:\TidalStream\map\anch_a_wgs84.pwa=Yes
+E:\TidalStream\map\land_a_wgs84.pwc=Yes
+E:\TidalStream\map\anch_a_wgs84.pws=Yes
+E:\TidalStream\map\coasline_wgs84.pwa=Yes
+E:\TidalStream\map\coasline_wgs84.pwc=Yes
+E:\TidalStream\map\coasline_wgs84.pws=Yes
+E:\TidalStream\map\fwy_l_wgs84.pwa=Yes
+E:\TidalStream\map\fwy_l_wgs84.pwc=Yes
+E:\TidalStream\map\fwy_l_wgs84.pws=Yes
+E:\TidalStream\map\land_a_wgs84.pwa=Yes
+E:\TidalStream\map\anch_a_wgs84.pwc=Yes
+E:\TidalStream\map\sar_l_wgs84.pws=Yes
+E:\TidalStream\map\sar_l_wgs84.pwa=Yes
+E:\TidalStream\map\sar_l_wgs84.pwc=Yes
+E:\TidalStream\map\land_a_wgs84.pws=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=Tidal Stream Atlas
+
+[Package|Dep File 1|IconGroups]
+Group0=Tidal Stream Atlas
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Dep File 1|Tidal Stream Atlas]
+Icon1=TidalStream.exe
+Title1=Tidal Stream Atlas
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=TidalStream.CAB
+DepCabRun=TidalStream.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=E:\TidalStream\Package
+ProjectFolder=E:\TidalStream
+ServerSideCab=
+File1=E:\TidalStream\Package\TidalStream.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|TidalStream|Tidal Stream Atlas]
+Icon1=TidalStream.exe
+Title1=Tidal Stream Atlas
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|TidalStream|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\TidalStream\Package
+
+[Package|TidalStream|Configure DAO ISAMs]
+Applicable=No
+
+[Package|TidalStream|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|TidalStream|Files Found]
+
+[Package|TidalStream|Files Released]
+atlasxp.mdb=
+0005.pwa=
+0005_l.pwc=
+0005_l.pwa=
+0005.pws=
+0005.pwc=
+0005_l.pws=
+land_a_wgs84.pws=
+land_a_wgs84.pwa=
+coasline_wgs84.pws=
+coasline_wgs84.pwc=
+coasline_wgs84.pwa=
+land_a_wgs84.pwc=
+
+[Package|TidalStream|Missing Dependency Information]
+E:\tools\cMDAC_TYP.EXE=
+
+[Package|TidalStream|Out-of-Date Dependency Information]
+C:\WINNT\system32\MSCAL.OCX=
+C:\WINNT\system32\scrrun.dll=
+
+[Package|TidalStream|Files Added]
+e:\tidalstream\map\anch_a_wgs84.pwa=
+land_a_wgs84.pwc=
+e:\tidalstream\map\anch_a_wgs84.pws=
+coasline_wgs84.pwa=
+coasline_wgs84.pwc=
+coasline_wgs84.pws=
+e:\tidalstream\map\fwy_l_wgs84.pwa=
+e:\tidalstream\map\fwy_l_wgs84.pwc=
+e:\tidalstream\map\fwy_l_wgs84.pws=
+land_a_wgs84.pwa=
+e:\tidalstream\map\anch_a_wgs84.pwc=
+e:\tidalstream\map\sar_l_wgs84.pws=
+e:\tidalstream\map\sar_l_wgs84.pwa=
+e:\tidalstream\map\sar_l_wgs84.pwc=
+land_a_wgs84.pws=
+e:\tools\cmdac_typ.exe=
+0005_l.pws=
+0005.pwc=
+0005.pws=
+0005_l.pwa=
+0005_l.pwc=
+0005.pwa=
+e:\tidalstream\pingreen.bmp=
+e:\tidalstream\spacer.bmp=
+e:\tidalstream\map\land_a.pwa=
+e:\tidalstream\map\land_a.pwc=
+e:\tidalstream\map\land_a.pws=
+e:\tidalstream\map\land_l.pwa=
+e:\tidalstream\map\land_l.pwc=
+e:\tidalstream\map\land_l.pws=
+e:\tidalstream\tide\atlasxp.mdb=
+
+[Package|TidalStream|Files Removed]
+e:\tidalstream\map\land_a_wgs84.pwa=
+e:\tidalstream\map\land_a_wgs84.pwc=
+e:\tidalstream\map\land_a_wgs84.pws=
+e:\tidalstream\map\coasline_wgs84.pwa=
+e:\tidalstream\map\coasline_wgs84.pwc=
+e:\tidalstream\map\coasline_wgs84.pws=
+e:\tidalstream\map\0005.pwa=
+e:\tidalstream\map\0005.pwc=
+e:\tidalstream\map\0005.pws=
+e:\tidalstream\map\0005_l.pwa=
+e:\tidalstream\map\0005_l.pwc=
+e:\tidalstream\map\0005_l.pws=
+e:\tools\cmdac_typ.exe=
+c:\winnt\system32\mscal.ocx=
+c:\program files\common files\microsoft shared\dao\dao360.dll=
+
+[Package|TidalStream|Files In Project]
+E:\TidalStream\TidalStream.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\Pwstrv2.ocx=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCAL.OCX=No
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\TidalStream\map\anch_a_wgs84.pwa=Yes
+E:\TidalStream\map\anch_a_wgs84.pws=Yes
+E:\TidalStream\map\fwy_l_wgs84.pwa=Yes
+E:\TidalStream\map\fwy_l_wgs84.pwc=Yes
+E:\TidalStream\map\fwy_l_wgs84.pws=Yes
+E:\TidalStream\map\anch_a_wgs84.pwc=Yes
+E:\TidalStream\map\sar_l_wgs84.pws=Yes
+E:\TidalStream\map\sar_l_wgs84.pwa=Yes
+E:\TidalStream\map\sar_l_wgs84.pwc=Yes
+E:\tools\cMDAC_TYP.EXE=No
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=No
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+E:\TidalStream\pingreen.bmp=Yes
+E:\TidalStream\spacer.bmp=Yes
+E:\TidalStream\map\land_a.pwa=Yes
+E:\TidalStream\map\land_a.pwc=Yes
+E:\TidalStream\map\land_a.pws=Yes
+E:\TidalStream\map\land_l.pwa=Yes
+E:\TidalStream\map\land_l.pwc=Yes
+E:\TidalStream\map\land_l.pws=Yes
+E:\TidalStream\Tide\AtlasXP.mdb=Yes
+
+[Package|TidalStream|Configure Registry Files]
+Applicable=No
+
+[Package|TidalStream|Configure Remote Servers]
+Applicable=No
+
+[Package|TidalStream|Install Locations]
+E:\TidalStream\TidalStream.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\Pwstrv2.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\TidalStream\AtlasXP.mdb=$(AppPath)
+E:\TidalStream\map\anch_a_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\land_a_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\anch_a_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\coasline_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\coasline_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\coasline_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\land_a_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\anch_a_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\land_a_wgs84.pws=$(AppPath)\map
+E:\tools\cMDAC_TYP.EXE=$(AppPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+E:\TidalStream\map\0005_l.pws=$(AppPath)\map
+E:\TidalStream\map\0005.pwc=$(AppPath)\map
+E:\TidalStream\map\0005.pws=$(AppPath)\map
+E:\TidalStream\map\0005_l.pwa=$(AppPath)\map
+E:\TidalStream\map\0005_l.pwc=$(AppPath)\map
+E:\TidalStream\map\0005.pwa=$(AppPath)\map
+E:\TidalStream\pingreen.bmp=$(AppPath)
+E:\TidalStream\spacer.bmp=$(AppPath)
+E:\TidalStream\map\land_a.pwa=$(AppPath)\map
+E:\TidalStream\map\land_a.pwc=$(AppPath)\map
+E:\TidalStream\map\land_a.pws=$(AppPath)\map
+E:\TidalStream\map\land_l.pwa=$(AppPath)\map
+E:\TidalStream\map\land_l.pwc=$(AppPath)\map
+E:\TidalStream\map\land_l.pws=$(AppPath)\map
+E:\TidalStream\Tide\AtlasXP.mdb=$(AppPath)\Tide
+
+[Package|TidalStream|Configure Shared Files]
+Applicable=Yes
+E:\TidalStream\TidalStream.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\TidalStream\AtlasXP.mdb=Yes
+E:\TidalStream\map\anch_a_wgs84.pwa=Yes
+E:\TidalStream\map\land_a_wgs84.pwc=No
+E:\TidalStream\map\anch_a_wgs84.pws=Yes
+E:\TidalStream\map\coasline_wgs84.pwa=Yes
+E:\TidalStream\map\coasline_wgs84.pwc=Yes
+E:\TidalStream\map\coasline_wgs84.pws=Yes
+E:\TidalStream\map\fwy_l_wgs84.pwa=Yes
+E:\TidalStream\map\fwy_l_wgs84.pwc=Yes
+E:\TidalStream\map\fwy_l_wgs84.pws=Yes
+E:\TidalStream\map\land_a_wgs84.pwa=No
+E:\TidalStream\map\anch_a_wgs84.pwc=Yes
+E:\TidalStream\map\sar_l_wgs84.pws=Yes
+E:\TidalStream\map\sar_l_wgs84.pwa=Yes
+E:\TidalStream\map\sar_l_wgs84.pwc=Yes
+E:\TidalStream\map\land_a_wgs84.pws=No
+E:\tools\cMDAC_TYP.EXE=Yes
+E:\TidalStream\map\0005_l.pws=Yes
+E:\TidalStream\map\0005.pwc=Yes
+E:\TidalStream\map\0005.pws=Yes
+E:\TidalStream\map\0005_l.pwa=Yes
+E:\TidalStream\map\0005_l.pwc=Yes
+E:\TidalStream\map\0005.pwa=Yes
+E:\TidalStream\pingreen.bmp=Yes
+E:\TidalStream\spacer.bmp=Yes
+E:\TidalStream\map\land_a.pwa=Yes
+E:\TidalStream\map\land_a.pwc=Yes
+E:\TidalStream\map\land_a.pws=Yes
+E:\TidalStream\map\land_l.pwa=Yes
+E:\TidalStream\map\land_l.pwc=Yes
+E:\TidalStream\map\land_l.pws=Yes
+E:\TidalStream\Tide\AtlasXP.mdb=No
+
+[Package|TidalStream|Distribution]
+Type=single
+Size=
+Title=Tidal Stream Atlas 2003
+
+[Package|TidalStream|IconGroups]
+Group0=Tidal Stream Atlas 2003
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|TidalStream|Tidal Stream Atlas 2003]
+Icon1=TidalStream.exe
+Title1=Tidal Stream Atlas 2003
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|TidalStream|Package]
+PackageFolder=E:\TidalStream\Package
+ProjectFolder=E:\TidalStream
+ServerSideCab=
+File1=E:\TidalStream\Package\setup.exe
+File2=E:\TidalStream\Package\Setup.Lst
+File3=E:\TidalStream\Package\TidalStream.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Chines TidalStream Atlas|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\TidalStream\Package (2)
+
+[Package|Chines TidalStream Atlas|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Chines TidalStream Atlas|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Chines TidalStream Atlas|Files Found]
+
+[Package|Chines TidalStream Atlas|Files Released]
+
+[Package|Chines TidalStream Atlas|Missing Dependency Information]
+E:\tools\cMDAC_TYP.EXE=
+
+[Package|Chines TidalStream Atlas|Out-of-Date Dependency Information]
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Chines TidalStream Atlas|Files Added]
+E:\tools\cMDAC_TYP.EXE=
+E:\TidalStream\spacer.bmp=
+E:\TidalStream\pingreen.bmp=
+E:\TidalStream\map\land_l.pws=
+E:\TidalStream\map\anch_a_wgs84.pwc=
+E:\TidalStream\map\anch_a_wgs84.pws=
+E:\TidalStream\map\fwy_l_wgs84.pwa=
+E:\TidalStream\map\fwy_l_wgs84.pwc=
+E:\TidalStream\map\fwy_l_wgs84.pws=
+E:\TidalStream\map\land_a.pwa=
+E:\TidalStream\map\land_a.pwc=
+E:\TidalStream\map\land_a.pws=
+E:\TidalStream\map\land_l.pwa=
+E:\TidalStream\map\land_l.pwc=
+E:\TidalStream\map\anch_a_wgs84.pwa=
+E:\TidalStream\map\sar_l_wgs84.pws=
+E:\TidalStream\map\sar_l_wgs84.pwc=
+E:\TidalStream\map\sar_l_wgs84.pwa=
+E:\TidalStream\Tide\AtlasXP.mdb=
+
+[Package|Chines TidalStream Atlas|Files Removed]
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|Chines TidalStream Atlas|Files In Project]
+E:\TidalStream\TidalStream.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\Pwstrv2.ocx=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\tools\cMDAC_TYP.EXE=Yes
+E:\TidalStream\spacer.bmp=Yes
+E:\TidalStream\pingreen.bmp=Yes
+E:\TidalStream\map\land_l.pws=Yes
+E:\TidalStream\map\anch_a_wgs84.pwc=Yes
+E:\TidalStream\map\anch_a_wgs84.pws=Yes
+E:\TidalStream\map\fwy_l_wgs84.pwa=Yes
+E:\TidalStream\map\fwy_l_wgs84.pwc=Yes
+E:\TidalStream\map\fwy_l_wgs84.pws=Yes
+E:\TidalStream\map\land_a.pwa=Yes
+E:\TidalStream\map\land_a.pwc=Yes
+E:\TidalStream\map\land_a.pws=Yes
+E:\TidalStream\map\land_l.pwa=Yes
+E:\TidalStream\map\land_l.pwc=Yes
+E:\TidalStream\map\anch_a_wgs84.pwa=Yes
+E:\TidalStream\map\sar_l_wgs84.pws=Yes
+E:\TidalStream\map\sar_l_wgs84.pwc=Yes
+E:\TidalStream\map\sar_l_wgs84.pwa=Yes
+E:\TidalStream\Tide\AtlasXP.mdb=Yes
+
+[Package|Chines TidalStream Atlas|Configure Registry Files]
+Applicable=No
+
+[Package|Chines TidalStream Atlas|Configure Remote Servers]
+Applicable=No
+
+[Package|Chines TidalStream Atlas|Install Locations]
+E:\TidalStream\TidalStream.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\Pwstrv2.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\tools\cMDAC_TYP.EXE=$(AppPath)
+E:\TidalStream\spacer.bmp=$(AppPath)
+E:\TidalStream\pingreen.bmp=$(AppPath)
+E:\TidalStream\map\land_l.pws=$(AppPath)\map
+E:\TidalStream\map\anch_a_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\anch_a_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\land_a.pwa=$(AppPath)\map
+E:\TidalStream\map\land_a.pwc=$(AppPath)\map
+E:\TidalStream\map\land_a.pws=$(AppPath)\map
+E:\TidalStream\map\land_l.pwa=$(AppPath)\map
+E:\TidalStream\map\land_l.pwc=$(AppPath)\map
+E:\TidalStream\map\anch_a_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\Tide\AtlasXP.mdb=$(AppPath)\Tide
+
+[Package|Chines TidalStream Atlas|Configure Shared Files]
+Applicable=Yes
+E:\TidalStream\TidalStream.exe=No
+E:\tools\cMDAC_TYP.EXE=No
+E:\TidalStream\spacer.bmp=No
+E:\TidalStream\pingreen.bmp=No
+E:\TidalStream\map\land_l.pws=No
+E:\TidalStream\map\anch_a_wgs84.pwc=No
+E:\TidalStream\map\anch_a_wgs84.pws=No
+E:\TidalStream\map\fwy_l_wgs84.pwa=No
+E:\TidalStream\map\fwy_l_wgs84.pwc=No
+E:\TidalStream\map\fwy_l_wgs84.pws=No
+E:\TidalStream\map\land_a.pwa=No
+E:\TidalStream\map\land_a.pwc=No
+E:\TidalStream\map\land_a.pws=No
+E:\TidalStream\map\land_l.pwa=No
+E:\TidalStream\map\land_l.pwc=No
+E:\TidalStream\map\anch_a_wgs84.pwa=No
+E:\TidalStream\map\sar_l_wgs84.pws=No
+E:\TidalStream\map\sar_l_wgs84.pwc=No
+E:\TidalStream\map\sar_l_wgs84.pwa=No
+E:\TidalStream\Tide\AtlasXP.mdb=No
+
+[Package|Chines TidalStream Atlas|Distribution]
+Type=single
+Size=
+Title=TidalStream Atlas 2003
+
+[Package|Chines TidalStream Atlas|IconGroups]
+Group0=TidalStream Atlas 2003
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Chines TidalStream Atlas|TidalStream Atlas 2003]
+Icon1=TidalStream.exe
+Title1=TidalStream Atlas 2003
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Chines TidalStream Atlas|Package]
+PackageFolder=E:\TidalStream\Package (2)
+ProjectFolder=E:\TidalStream
+ServerSideCab=
+File1=E:\TidalStream\Package (2)\setup.exe
+File2=E:\TidalStream\Package (2)\Setup.Lst
+File3=E:\TidalStream\Package (2)\TidalStream.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 2|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=E:\TidalStream\Package
+
+[Package|Dep File 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 2|Files Found]
+dcom98.exe=E:\tmpBak\tools\dcom98.exe
+
+[Package|Dep File 2|Files Released]
+
+[Package|Dep File 2|Missing Dependency Information]
+E:\TidalStream\tools\dcom98.exe=
+E:\tmpBak\tools\dcom98.exe=
+C:\WINNT\system32\Pwstrv2.ocx=
+
+[Package|Dep File 2|Out-of-Date Dependency Information]
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Dep File 2|Files Added]
+e:\tidalstream\tide\atlasxp.mdb=
+e:\tidalstream\pingreen.bmp=
+e:\tidalstream\spacer.bmp=
+e:\tidalstream\map\anch_a_wgs84.pwa=
+e:\tidalstream\map\anch_a_wgs84.pwc=
+e:\tidalstream\map\anch_a_wgs84.pws=
+e:\tidalstream\map\fwy_l_wgs84.pwa=
+e:\tidalstream\map\fwy_l_wgs84.pwc=
+e:\tidalstream\map\fwy_l_wgs84.pws=
+e:\tidalstream\map\land_a.pwa=
+e:\tidalstream\map\land_a.pwc=
+e:\tidalstream\map\land_a.pws=
+e:\tidalstream\map\land_l.pwa=
+e:\tidalstream\map\land_l.pwc=
+e:\tidalstream\map\land_l.pws=
+e:\tidalstream\map\sar_l_wgs84.pwa=
+e:\tidalstream\map\sar_l_wgs84.pws=
+e:\tidalstream\map\sar_l_wgs84.pwc=
+dcom98.exe=
+
+[Package|Dep File 2|Files Removed]
+e:\tidalstream\tools\dcom98.exe=
+e:\tmpbak\tools\dcom98.exe=
+
+[Package|Dep File 2|Files In Project]
+E:\TidalStream\TidalStream.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\Pwstrv2.ocx=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+E:\TidalStream\Tide\AtlasXP.mdb=Yes
+E:\TidalStream\pingreen.bmp=Yes
+E:\TidalStream\spacer.bmp=Yes
+E:\TidalStream\map\anch_a_wgs84.pwa=Yes
+E:\TidalStream\map\anch_a_wgs84.pwc=Yes
+E:\TidalStream\map\anch_a_wgs84.pws=Yes
+E:\TidalStream\map\fwy_l_wgs84.pwa=Yes
+E:\TidalStream\map\fwy_l_wgs84.pwc=Yes
+E:\TidalStream\map\fwy_l_wgs84.pws=Yes
+E:\TidalStream\map\land_a.pwa=Yes
+E:\TidalStream\map\land_a.pwc=Yes
+E:\TidalStream\map\land_a.pws=Yes
+E:\TidalStream\map\land_l.pwa=Yes
+E:\TidalStream\map\land_l.pwc=Yes
+E:\TidalStream\map\land_l.pws=Yes
+E:\TidalStream\map\sar_l_wgs84.pwa=Yes
+E:\TidalStream\map\sar_l_wgs84.pws=Yes
+E:\TidalStream\map\sar_l_wgs84.pwc=Yes
+E:\tmpBak\tools\dcom98.exe=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado15.dll=Yes
+
+[Package|Dep File 2|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 2|Install Locations]
+E:\TidalStream\TidalStream.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\Pwstrv2.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\TidalStream\Tide\AtlasXP.mdb=$(AppPath)\Tide
+E:\TidalStream\pingreen.bmp=$(AppPath)
+E:\TidalStream\spacer.bmp=$(AppPath)
+E:\TidalStream\map\anch_a_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\anch_a_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\anch_a_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\land_a.pwa=$(AppPath)\map
+E:\TidalStream\map\land_a.pwc=$(AppPath)\map
+E:\TidalStream\map\land_a.pws=$(AppPath)\map
+E:\TidalStream\map\land_l.pwa=$(AppPath)\map
+E:\TidalStream\map\land_l.pwc=$(AppPath)\map
+E:\TidalStream\map\land_l.pws=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\tools\dcom98.exe=$(AppPath)
+E:\tmpBak\tools\dcom98.exe=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+
+[Package|Dep File 2|Configure Shared Files]
+Applicable=Yes
+E:\TidalStream\TidalStream.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\TidalStream\Tide\AtlasXP.mdb=No
+E:\TidalStream\pingreen.bmp=No
+E:\TidalStream\spacer.bmp=No
+E:\TidalStream\map\anch_a_wgs84.pwa=No
+E:\TidalStream\map\anch_a_wgs84.pwc=No
+E:\TidalStream\map\anch_a_wgs84.pws=No
+E:\TidalStream\map\fwy_l_wgs84.pwa=No
+E:\TidalStream\map\fwy_l_wgs84.pwc=No
+E:\TidalStream\map\fwy_l_wgs84.pws=No
+E:\TidalStream\map\land_a.pwa=No
+E:\TidalStream\map\land_a.pwc=No
+E:\TidalStream\map\land_a.pws=No
+E:\TidalStream\map\land_l.pwa=No
+E:\TidalStream\map\land_l.pwc=No
+E:\TidalStream\map\land_l.pws=No
+E:\TidalStream\map\sar_l_wgs84.pwa=No
+E:\TidalStream\map\sar_l_wgs84.pws=No
+E:\TidalStream\map\sar_l_wgs84.pwc=No
+E:\TidalStream\tools\dcom98.exe=No
+E:\tmpBak\tools\dcom98.exe=No
+
+[Package|Dep File 2|Distribution]
+Type=single
+Size=
+Title=Tidal Stream Atlas 2003
+
+[Package|Dep File 2|IconGroups]
+Group0=Tidal Stream Atlas 2003
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Dep File 2|Tidal Stream Atlas 2003]
+Icon1=TidalStream.exe
+Title1=Tidal Stream Atlas 2003
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 2|DepFile]
+DepCabFile=TidalStream.CAB
+DepCabRun=TidalStream.INF
+
+[Package|Dep File 2|Package]
+PackageFolder=E:\TidalStream\Package
+ProjectFolder=E:\TidalStream
+ServerSideCab=
+File1=E:\TidalStream\Package\TidalStream.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|TidalStream 2003|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\TidalStream\Package
+
+[Package|TidalStream 2003|Configure DAO ISAMs]
+Applicable=No
+
+[Package|TidalStream 2003|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|TidalStream 2003|Files Found]
+dcom98.exe=E:\tmpBak\tools\dcom98.exe
+
+[Package|TidalStream 2003|Files Released]
+
+[Package|TidalStream 2003|Missing Dependency Information]
+E:\TidalStream\tools\dcom98.exe=
+E:\tmpBak\tools\dcom98.exe=
+C:\WINNT\system32\Pwstrv2.ocx=
+
+[Package|TidalStream 2003|Out-of-Date Dependency Information]
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINNT\system32\scrrun.dll=
+
+[Package|TidalStream 2003|Files Added]
+e:\tidalstream\tide\atlasxp.mdb=
+e:\tidalstream\pingreen.bmp=
+e:\tidalstream\spacer.bmp=
+e:\tidalstream\map\anch_a_wgs84.pwa=
+e:\tidalstream\map\anch_a_wgs84.pwc=
+e:\tidalstream\map\anch_a_wgs84.pws=
+e:\tidalstream\map\fwy_l_wgs84.pwa=
+e:\tidalstream\map\fwy_l_wgs84.pwc=
+e:\tidalstream\map\fwy_l_wgs84.pws=
+e:\tidalstream\map\land_a.pwa=
+e:\tidalstream\map\land_a.pwc=
+e:\tidalstream\map\land_a.pws=
+e:\tidalstream\map\land_l.pwa=
+e:\tidalstream\map\land_l.pwc=
+e:\tidalstream\map\land_l.pws=
+e:\tidalstream\map\sar_l_wgs84.pwa=
+e:\tidalstream\map\sar_l_wgs84.pws=
+e:\tidalstream\map\sar_l_wgs84.pwc=
+dcom98.exe=
+e:\tidalstream\map\fairway_polygon.pwa=
+e:\tidalstream\map\fairway_polygon.pwc=
+e:\tidalstream\map\fairway_polygon.pws=
+
+[Package|TidalStream 2003|Files Removed]
+e:\tidalstream\tools\dcom98.exe=
+e:\tmpbak\tools\dcom98.exe=
+
+[Package|TidalStream 2003|Files In Project]
+E:\TidalStream\TidalStream.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\Pwstrv2.ocx=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\TidalStream\Tide\AtlasXP.mdb=Yes
+E:\TidalStream\pingreen.bmp=Yes
+E:\TidalStream\spacer.bmp=Yes
+E:\TidalStream\map\anch_a_wgs84.pwa=Yes
+E:\TidalStream\map\anch_a_wgs84.pwc=Yes
+E:\TidalStream\map\anch_a_wgs84.pws=Yes
+E:\TidalStream\map\fwy_l_wgs84.pwa=Yes
+E:\TidalStream\map\fwy_l_wgs84.pwc=Yes
+E:\TidalStream\map\fwy_l_wgs84.pws=Yes
+E:\TidalStream\map\land_a.pwa=Yes
+E:\TidalStream\map\land_a.pwc=Yes
+E:\TidalStream\map\land_a.pws=Yes
+E:\TidalStream\map\land_l.pwa=Yes
+E:\TidalStream\map\land_l.pwc=Yes
+E:\TidalStream\map\land_l.pws=Yes
+E:\TidalStream\map\sar_l_wgs84.pwa=Yes
+E:\TidalStream\map\sar_l_wgs84.pws=Yes
+E:\TidalStream\map\sar_l_wgs84.pwc=Yes
+E:\tmpBak\tools\dcom98.exe=No
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+E:\TidalStream\map\fairway_polygon.pwa=Yes
+E:\TidalStream\map\fairway_polygon.pwc=Yes
+E:\TidalStream\map\fairway_polygon.pws=Yes
+
+[Package|TidalStream 2003|Configure Registry Files]
+Applicable=No
+
+[Package|TidalStream 2003|Configure Remote Servers]
+Applicable=No
+
+[Package|TidalStream 2003|Install Locations]
+E:\TidalStream\TidalStream.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\Pwstrv2.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\TidalStream\Tide\AtlasXP.mdb=$(AppPath)\Tide
+E:\TidalStream\pingreen.bmp=$(AppPath)
+E:\TidalStream\spacer.bmp=$(AppPath)
+E:\TidalStream\map\anch_a_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\anch_a_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\anch_a_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\map\fwy_l_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\land_a.pwa=$(AppPath)\map
+E:\TidalStream\map\land_a.pwc=$(AppPath)\map
+E:\TidalStream\map\land_a.pws=$(AppPath)\map
+E:\TidalStream\map\land_l.pwa=$(AppPath)\map
+E:\TidalStream\map\land_l.pwc=$(AppPath)\map
+E:\TidalStream\map\land_l.pws=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pwa=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pws=$(AppPath)\map
+E:\TidalStream\map\sar_l_wgs84.pwc=$(AppPath)\map
+E:\TidalStream\tools\dcom98.exe=$(AppPath)
+E:\tmpBak\tools\dcom98.exe=$(AppPath)
+E:\TidalStream\map\fairway_polygon.pwa=$(AppPath)\map
+E:\TidalStream\map\fairway_polygon.pwc=$(AppPath)\map
+E:\TidalStream\map\fairway_polygon.pws=$(AppPath)\map
+
+[Package|TidalStream 2003|Configure Shared Files]
+Applicable=Yes
+E:\TidalStream\TidalStream.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\TidalStream\Tide\AtlasXP.mdb=No
+E:\TidalStream\pingreen.bmp=No
+E:\TidalStream\spacer.bmp=No
+E:\TidalStream\map\anch_a_wgs84.pwa=No
+E:\TidalStream\map\anch_a_wgs84.pwc=No
+E:\TidalStream\map\anch_a_wgs84.pws=No
+E:\TidalStream\map\fwy_l_wgs84.pwa=No
+E:\TidalStream\map\fwy_l_wgs84.pwc=No
+E:\TidalStream\map\fwy_l_wgs84.pws=No
+E:\TidalStream\map\land_a.pwa=No
+E:\TidalStream\map\land_a.pwc=No
+E:\TidalStream\map\land_a.pws=No
+E:\TidalStream\map\land_l.pwa=No
+E:\TidalStream\map\land_l.pwc=No
+E:\TidalStream\map\land_l.pws=No
+E:\TidalStream\map\sar_l_wgs84.pwa=No
+E:\TidalStream\map\sar_l_wgs84.pws=No
+E:\TidalStream\map\sar_l_wgs84.pwc=No
+E:\TidalStream\tools\dcom98.exe=No
+E:\tmpBak\tools\dcom98.exe=No
+E:\TidalStream\map\fairway_polygon.pwa=No
+E:\TidalStream\map\fairway_polygon.pwc=No
+E:\TidalStream\map\fairway_polygon.pws=No
+
+[Package|TidalStream 2003|Distribution]
+Type=single
+Size=
+Title=Tidal Stream Atlas 2003
+
+[Package|TidalStream 2003|Package]
+PackageFolder=E:\TidalStream\Package
+ProjectFolder=E:\TidalStream
+ServerSideCab=
+File1=E:\TidalStream\Package\setup.exe
+File2=E:\TidalStream\Package\Setup.Lst
+File3=E:\TidalStream\Package\TidalStream.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|TidalStream 2003|IconGroups]
+Group0=Tidal Stream Atlas 2003
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|TidalStream 2003|Tidal Stream Atlas 2003]
+Icon1=TidalStream.exe
+Title1=Tidal Stream Atlas 2003
+StartIn1=$(AppPath)
+Key1=Icon1
