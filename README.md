@@ -5,3 +5,6 @@ This GIS application was developed more than two decades ago. It serves as a ref
 ![screen 1](https://freeware.vagweb.com/images/tide/screen1.png)
 ![screen 2](https://freeware.vagweb.com/images/tide/screen2.png)
 When I was younger, I used my name as the table name, which is not a good practice.
+
+All development-related resources can be downloaded from [here](https://drive.google.com/drive/u/2/folders/1yBQXvJD7h-Rxnt6f1GAou-7HVNh7SMbL). It is recommended to use Windows XP under VMware or VirtualBox for compatibility purposes.
+
